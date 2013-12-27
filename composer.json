@@ -1,0 +1,23 @@
+{
+	"name": "speedwork/installer",
+	"type": "composer-installer",
+	"description": "Speedwork application installer.",
+	"keywords": ["Speedwork", "Application", "Installer"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "sankar",
+			"email": "sankar.suda@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-0": { "Speed\\ApplicationInstaller": "src/" }
+	},
+    "extra": {
+        "class": "Speed\\ApplicationInstaller\\Installer"
+    },
+    "minimum-stability": "dev"
+}
